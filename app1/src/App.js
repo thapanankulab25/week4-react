@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-
+import React from'react'
+import './style.css';
 function App() {
 
 //     let r='<b>React</b>'
@@ -27,12 +28,19 @@ function App() {
 //   </table>
 // )
 
-const divStyle ={
-  color:'red',
-  backgroundcolor:'powderblue',
-  fontSize:'larger',
-}
-return <div style={divStyle}>Hello React</div>
+// const divStyle ={
+//   color:'red',
+//   backgroundColor:'powderblue',
+//   fontSize:'larger',
+//   padding:'3px',
+// }
+// return <div style={divStyle}>Hello React</div>
+return(
+<>
+<h2 style={{textAlign: "center"}}>Bitkub.com</h2>
+<div className='title' style={{textAlign: "center"}}>ยินดีต้องรับสู่นวัตกรรมเปลี่ยนโลก</div>
+</>
+)
 }
 
 export default App;
