@@ -4,11 +4,11 @@ import './App.css';
 function App() {
 
     let r='<b>React</b>'
-    let rn='React Native'
+    let rn='<b>React</b> Native'
     const el=(
       <div>
         Create Web <br/>
-        with  <span dangerouslySetInnerHTML={{__html:r}}/> & {rn}
+        with <span dangerouslySetInnerHTML={{__html:r}}/> & <span dangerouslySetInnerHTML={{__html:rn}}/>
       </div>
     )
 return el
