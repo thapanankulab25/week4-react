@@ -1,8 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import React from'react'
-import './style.css';
+import React from 'react'
+import { Content,Footer, Header } from './func-components'
 function App() {
+
+return (
+[<Header />,<Content /> ,<Footer /> ]
+)
+}
+export default App
+
+
+// import logo from './logo.svg';
+// import './App.css';
+// import React from'react'
+// import './style.css';
+// function App() {
 
 //     let r='<b>React</b>'
 //     let rn='<b>React</b> Native'
@@ -35,12 +46,12 @@ function App() {
 //   padding:'3px',
 // }
 // return <div style={divStyle}>Hello React</div>
-return(
-<>
-<h2 style={{textAlign: "center"}}>Bitkub.com</h2>
-<div className='title' style={{textAlign: "center"}}>ยินดีต้องรับสู่นวัตกรรมเปลี่ยนโลก</div>
-</>
-)
-}
+// return(
+// <>
+// <h2 style={{textAlign: "center"}}>Bitkub.com</h2>
+// <div className='title' style={{textAlign: "center"}}>ยินดีต้องรับสู่นวัตกรรมเปลี่ยนโลก</div>
+// </>
+// )
+// }
 
-export default App;
+// export default App;
